@@ -6,8 +6,8 @@
     "tslib": "~1.8.1"
   },
   "devDependencies": {
-    "@dojo/cli-build-app": "^2.0.0",
-    "@dojo/cli-test-intern": "^2.0.0",
+    "@dojo/cli-build-app": "^3.0.0",
+    "@dojo/cli-test-intern": "^3.0.0",
     "@dojo/cli-upgrade-app": "^4.0.0",
     "@types/node": "~9.6.5",
     "typescript": "~2.6.1"
