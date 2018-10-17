@@ -8,7 +8,7 @@
   "devDependencies": {
     "@dojo/cli-build-app": "^3.0.0",
     "@dojo/cli-test-intern": "^3.0.0",
-    "@dojo/cli-update-app": "^4.0.0",
+    "@dojo/cli-upgrade-app": "^4.0.0",
     "@types/node": "~9.6.5",
     "typescript": "~2.6.1"
   }
