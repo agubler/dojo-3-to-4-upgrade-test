@@ -2,6 +2,10 @@ import WidgetBase from '@dojo/framework/widget-core/WidgetBase';
 import { v } from '@dojo/framework/widget-core/d';
 import request from '@dojo/framework/core/request';
 import { Outlet } from '@dojo/framework/routing/Outlet';
+import { deepAssign } from '@dojo/framework/core/lang';
+import uuid from '@dojo/framework/core/uuid';
+
+deepAssign({ id: uuid() }, {});
 
 console.log(request);
 
