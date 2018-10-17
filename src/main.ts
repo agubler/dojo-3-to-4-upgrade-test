@@ -1,6 +1,10 @@
 import { ProjectorMixin } from '@dojo/framework/widget-core/mixins/Projector';
 import HelloWorld from './widgets/HelloWorld';
 
+import request from '@dojo/framework/core/request';
+
+console.log(request);
+
 // Create a projector to convert the virtual DOM produced by the application into the rendered page.
 // For more information on starting up a Dojo 2 application, take a look at
 // https://dojo.io/tutorials/002_creating_an_application/
